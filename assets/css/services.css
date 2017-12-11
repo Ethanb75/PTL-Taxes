@@ -1,0 +1,43 @@
+.spotlights > section {
+  background-color: #043451;
+}
+
+.spotlights > section:nth-child(2n) {
+  background-color: #053C5E;
+}
+
+#banner {
+  background-image: url("../../images/pic07.jpg");
+}
+
+#main {
+  background-image: url(../../images/pat3.png);
+}
+
+#banner h1 {
+  line-height: 1.1;
+}
+
+.service_brands {
+  /* text-align: center; */
+}
+
+.service_brands img:nth-of-type(2) {
+  margin: 0rem 1.5vw;
+}
+
+.service_brands img {
+  height: 3.323em;
+  width: auto;
+  opacity: .7;
+}
+
+.actions.amp {
+  display: flex;
+  align-items: center;
+}
+
+.actions.amp img {
+  margin-right: 1.23em; 
+  height: 3.32em;
+}
