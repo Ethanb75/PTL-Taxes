@@ -52,6 +52,10 @@ input[type="email"]:invalid {
   box-shadow: 0 0 0 2px #FF7B7A;
 }
 
+header.major {
+  width: 100%;
+}
+
 
 /* 
 * Footer ---------------------------------------------
