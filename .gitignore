@@ -2,3 +2,6 @@
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 /doc
 assets/images/work.png
+gulpfile.js
+build/
+node_modules/

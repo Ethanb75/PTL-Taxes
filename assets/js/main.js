@@ -417,7 +417,7 @@
 						.children[2]
 						.children[1]
 						.value = '';
-					return emailjs.send("default_service", "main", {name, email, message});
+					return emailjs.send("default_service", "ptltaxes", {name, email, message});
 			})
 	}, false);
 })();
