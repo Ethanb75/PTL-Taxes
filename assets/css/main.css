@@ -1623,7 +1623,8 @@
 	}
 
 	body {
-		background: #032C44;
+		/* background: #005969; */
+		background: #00434F;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3406,7 +3407,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner3.jpg");
+		background-image: url("../../images/banner5.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3439,7 +3440,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #064D77;
+			background-color: #005969;
 			content: '';
 			display: block;
 			height: 100%;
