@@ -22,7 +22,14 @@
 #banner h1 {
   line-height: 1.1;
 }
-
+#easy_w2_import video {
+  height: 100%;
+  width: 50%;
+}
+#easy_w2_import .content {
+  max-width: 50%;
+  width: auto;
+}
 .service_brands {
   /* text-align: center; */
 }
@@ -39,10 +46,37 @@
 
 .actions.amp {
   display: flex;
+  justify-content: space-between;
+}
+.amp > span {
+  display: flex;
   align-items: center;
 }
-
+.amp > small {
+  font-size: .7em;
+  text-align: right;
+  max-width: 62%;
+  color: rgba(255,255,255,.7);
+}
 .actions.amp img {
   margin-right: 1.23em; 
   height: 3.32em;
+}
+@media screen and (max-width: 980px) {
+  #easy_w2_import video {
+    width: 100%;
+  }
+  #easy_w2_import .content {
+    max-width: 100%;
+  }
+  .actions.amp {
+    flex-direction: column;
+  }
+  .amp > small {
+    text-align: left;
+    max-width: 100%;
+  }
+  .amp > span {
+    margin-bottom: 2em;
+  }
 }
