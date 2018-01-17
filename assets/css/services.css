@@ -43,7 +43,9 @@
   width: auto;
   opacity: .7;
 }
-
+#audit_maintenance_pro i {
+  color: #6fc3df
+}
 .actions.amp {
   display: flex;
   justify-content: space-between;
