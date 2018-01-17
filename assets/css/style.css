@@ -89,8 +89,64 @@ header.major > .sub:first-child::after {
   width: 3.8em;
 }
 
+#contact {
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ABOUT STYLE*/
+.aboutWrap {
+  display: flex;
+}
+.aboutWrap > div {
+ flex-grow: 1; 
+ 
+} 
+.aboutWrap > div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  padding-left: 5rem
+}
+.aboutWrap .image.main img {
+  width: 20rem;
+}
+.aboutWrap p {
+  max-width: 85%;
+}
+
 @media screen and (max-width: 980px) {
   .content p {
     max-width: 100%;
+  }
+
+  /*ABOUT*/
+  .aboutWrap {
+    flex-direction: column;
+  }
+  .aboutWrap p {
+    max-width: none;
+  }
+  .aboutWrap span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutWrap > div:nth-of-type(2) {
+    padding: 0;
+  }
+  .aboutWrap .image.main img {
+    width: 100%;
   }
 }

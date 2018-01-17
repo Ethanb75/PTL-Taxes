@@ -47,6 +47,7 @@
 .actions.amp {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1em;
 }
 .amp > span {
   display: flex;
