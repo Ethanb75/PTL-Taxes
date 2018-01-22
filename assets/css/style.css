@@ -92,11 +92,26 @@ header.major > .sub:first-child::after {
 #contact {
   overflow: hidden;
 }
+.actions button {
+  min-width: 19rem;
+}
 
 
 
 
-
+/*SERVICES*/
+.refund {
+  background: whitesmoke;
+  color: black;
+  text-align: center;
+  padding: 2.5rem 0rem;
+}
+.refund h3 {
+  color: #00434F;
+  padding: 0;
+  margin: 0;
+  font-size: 2.5em;
+}
 
 
 

@@ -3407,8 +3407,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		/* background-image: url("../../images/banner5.jpg"); */
-		background-image: url(https://res.cloudinary.com/anti-social/image/upload/v1516221624/banner5_tzsm1z.jpg);
+		background-image: url("../../images/banner-comp.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
