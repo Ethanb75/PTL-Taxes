@@ -403,6 +403,7 @@
 						submit.disabled = 'true';
 					}, function (err) {
 						/*HANDLE ERR */
+						alert("we're sorry there's been an issue. Please try refreshing the page.")
 						submit.innerHTML = "Get a Quote";
 					});
 				})
