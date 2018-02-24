@@ -92,9 +92,6 @@ header.major > .sub:first-child::after {
 #contact {
   overflow: hidden;
 }
-.actions button {
-  min-width: 19rem;
-}
 .inner > div {
   padding-bottom: 2em;
 }
