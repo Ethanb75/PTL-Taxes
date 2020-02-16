@@ -4,6 +4,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+function sizeMap() {
+	var tango = document.getElementById("mapFrame");
+	if(window.innerWidth < 6z00) {
+		tango.width = window.innerWidth - 50;
+		tango.height = window.innerWidth - 50;
+	}
+	// setTimeout(function() {
+	// 	console.log(tango.width);
+	// 	tango.width = 200;
+	// }, 3000)
+}
+
 (function ($) {
 
 	skel.breakpoints({
@@ -410,4 +422,5 @@
 		}, false);
 	})();
 
+	sizeMap()
 })(jQuery);
